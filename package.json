@@ -1,6 +1,6 @@
 {
   "name": "jubat",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Jubatus framework",
   "main": "index.js",
   "scripts": {
