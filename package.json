@@ -1,0 +1,25 @@
+{
+  "name": "jubat",
+  "version": "0.0.0",
+  "description": "Jubatus framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daniil-bagaev/jubat.git"
+  },
+  "keywords": [
+    "jubat",
+    "framework",
+    "logger",
+    "tasker"
+  ],
+  "author": "Jubatus Team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daniil-bagaev/jubat/issues"
+  },
+  "homepage": "https://github.com/daniil-bagaev/jubat#readme"
+}
