@@ -1,25 +1,28 @@
 {
-  "name": "jubat",
-  "version": "0.0.1",
-  "description": "Jubatus framework",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/daniil-bagaev/jubat.git"
-  },
-  "keywords": [
-    "jubat",
-    "framework",
-    "logger",
-    "tasker"
-  ],
-  "author": "Jubatus Team",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/daniil-bagaev/jubat/issues"
-  },
-  "homepage": "https://github.com/daniil-bagaev/jubat#readme"
+	"name": "jubat",
+	"version": "0.0.2",
+	"description": "Jubatus framework",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/daniil-bagaev/jubat.git"
+	},
+	"keywords": [
+		"jubat",
+		"framework",
+		"logger",
+		"tasker"
+	],
+	"author": "Jubatus Team",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/daniil-bagaev/jubat/issues"
+	},
+	"homepage": "https://github.com/daniil-bagaev/jubat#readme",
+	"dependencies": {
+		"fast-glob": "^3.2.12"
+	}
 }
