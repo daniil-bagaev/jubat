@@ -1,12 +1,13 @@
 'use strict';
 const 
-    config = require('./config/jubat.json');
+    path = require('node:path');
 const 
     jubat = {
-        package: require(config.package),
-        log: require(config.log),
-        src: require(config.src),
-        dest: require(config.dest),
-        git: require(config.git)
+        package: require(path.join(__dirname, 'package.json')),
+        log: require(path.join(__dirname, 'lib', 'log.js')),
+        src: require(path.join(__dirname, 'lib', 'src.js')),
+        dest: require(path.join(__dirname, 'lib', 'dest.js')),
+        git: require(path.join(__dirname, 'lib', 'git.js')),
+        task: require(path.join(__dirname, 'lib', 'task.js'))
     };
 module.exports = jubat;

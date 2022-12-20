@@ -1,8 +1,0 @@
-{
-    "package": "./package.json",
-    "log": "./lib/log.js",
-    "src": "./lib/src.js",
-    "dest": "./lib/dest.js",
-    "git": "./lib/git.js",
-    "task": "./lib/task.js"
-}

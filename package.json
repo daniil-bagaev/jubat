@@ -1,6 +1,6 @@
 {
 	"name": "jubat",
-	"version": "0.0.5",
+	"version": "0.0.6",
 	"description": "Jubatus framework",
 	"main": "index.js",
 	"site": "http://jubatus.site",
